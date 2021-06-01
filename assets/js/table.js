@@ -1,10 +1,9 @@
 var ramouno = prompt("Ingresa ramo uno ", "HTML");
 var ramodos = prompt("Ingresa ramo dos", "CSS");
 var ramotres = prompt("Ingresa ramo tres", "JavaScript");
-
-
-
-
+var notauno = prompt("ingresa nota 1", 7);
+var notados = prompt("ingresa nota 2", 6);
+var notatres = prompt("ingresa nota 3", 4);
 
 document.write("<section class=' bg-white '>");
 document.write("<div class='container'>");
@@ -23,23 +22,25 @@ document.write("<div class='col-md-2'> ");
 document.write("<h3> Promedio </h3>");
 document.write("</div> ");
 document.write("</div> ");
-document.write("<div class='row bg-white pt-2'> ");
+//////////////////////////////// nota 1 //////////////////////////////////
+document.write("<div class='row bg-white pt-2'>");
 document.write("<div class='col-md-4'>");
-document.write("<h3>" + ramouno + "</h3> ");
+document.write("<h3>" + ramouno + "</h3>");
 document.write("</div>");
 document.write("<div class='col-md-2'>");
-document.write("<h3> input Nota 1 </h3> ");
+document.write("<h3>" + notauno + " </h3>");
 document.write("</div> ");
 document.write("<div class='col-md-2'>");
-document.write("<h3> input Nota 2 </h3> ");
+document.write("<h3>" + notados + " </h3>");
+document.write("</div>");
+document.write("<div class='col-md-2'>");
+document.write("<h3>" + notatres + " </h3>");
 document.write("</div> ");
-document.write("<div class='col-md-2'> ");
-document.write("<h3> input Nota 3 </h3>");
-document.write("</div> ");
-document.write("<div class='col-md-2'> ");
-document.write("<h3> input Promedio </h3> ");
+document.write("<div class='col-md-2'>");
+document.write("<h3> inputa promedio </h3> ");
 document.write("</div> ");
 document.write("</div>");
+//////////////////////////////// nota 2 //////////////////////////////////
 document.write("<hr> ");
 document.write("<div class='row bg-white'> ");
 document.write("<div class='col-md-4'> ");
@@ -57,6 +58,7 @@ document.write("<div class='col-md-2'>");
 document.write("<h3> input Promedio </h3>");
 document.write("</div> ");
 document.write("</div> ");
+//////////////////////////////// nota 3 //////////////////////////////////
 document.write("<hr>");
 document.write("<div class='row bg-white'>");
 document.write("<div class='col-md-4'> ");
@@ -75,6 +77,8 @@ document.write("<div class='col-md-2'>");
 document.write("<h3> input Promedio </h3>");
 document.write("</div> ");
 document.write("</div> ");
+
+//////////////////////////////// comentary //////////////////////////////////
 document.write("<div class='row bg-white mt-4'> ");
 document.write("<div class='col-md-12'> ");
 document.write("<p> Para aprobar el ramo " + ramotres + " con nota INPUT, necesitas obtener un INPUT en la nota 3. </p>");

@@ -1,7 +1,7 @@
 //////////////////////////////// notetable //////////////////////////////////
 
 var nombre = prompt("Ingrese Nombre del Alumno", "Oscar Bastias");
-var carrera = prompt("ingrese Nombre de la Carrera", "CSS");
+var carrera = prompt("ingrese Nombre de la Carrera", "Desarrollo Web");
 
 document.write("<div class='container'>");
 document.write("<div class='row'>");
