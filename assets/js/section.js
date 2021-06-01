@@ -1,0 +1,3 @@
+var nombre = prompt("Ingrese Nombre del Alumno", "Oscar Bastias");
+
+document.write("<section> <div class='container'> <div class='row'> <div class='col-md-2 font'> <h4 class='font-weight-bold'>Nombre:</h4> </div> <div class='col-md-10'> <h4> Input nombre </h4> </div> </div> <div class='row'> <div class='col-md-2'> <h4 class='font-weight-bold'>Carrera:</h4> </div> <div class='col-md-10'> <h4>input Carrera</h4> </div> </div> </div> </section>")
